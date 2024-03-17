@@ -8,11 +8,7 @@ class Solution:
             if num == 0:
                 count -= 1
             else:
-                count += 1
+                count += 
                 
-            if count in sum_map:
-                max_length = max(max_length, i - sum_map[count])
-            else:
-                sum_map[count] = i
         
-        return max_length
+        ret
