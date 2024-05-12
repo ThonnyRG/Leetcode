@@ -1,3 +1,5 @@
-public class Leetcode2373 {
-    
+class Solution {
+    public int[][] largestLocal(int[][] grid) {
+        
+    }
 }
