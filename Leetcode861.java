@@ -1,5 +1,6 @@
 
-//6
-public class Leetcode861 {
-    
+class Solution {
+    public int matrixScore(int[][] grid) {
+        
+    }
 }
