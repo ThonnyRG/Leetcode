@@ -1,3 +1,4 @@
+package Leetcodes;
 class Solution {
     public int minimumLength(String s) {
         int l = 0, r = s.length() - 1;
