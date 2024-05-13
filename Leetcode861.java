@@ -1,3 +1,3 @@
 public class Leetcode861 {
-    1
+    3
 }
