@@ -1,3 +1,4 @@
+package Leetcodes;
 class Solution {
     public int trap(int[] height) {
          int n=height.length;
