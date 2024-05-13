@@ -1,3 +1,4 @@
+package Leetcodes;
 class Solution {
     private int getf(int[] f, int x) {
         return f[x] == x ? x : (f[x] = getf(f, f[x]));
