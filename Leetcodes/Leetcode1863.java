@@ -1,3 +1,5 @@
-public class Leetcode1863 {
-    
+class Solution {
+    public int subsetXORSum(int[] nums) {
+        
+    }
 }
