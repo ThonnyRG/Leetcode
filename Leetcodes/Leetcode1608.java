@@ -1,3 +1,5 @@
-public class Leetcode1608 {
-    
+class Solution {
+    public int specialArray(int[] nums) {
+
+    }
 }
