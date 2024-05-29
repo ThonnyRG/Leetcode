@@ -1,3 +1,5 @@
-public class Leetcode1404 {
-
+class Solution {
+    public int numSteps(String s) {
+        
+    }
 }
