@@ -1,3 +1,5 @@
-public class Leetcode1442 {
-    
+class Solution {
+    public int countTriplets(int[] arr) {
+        
+    }
 }
