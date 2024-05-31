@@ -1,3 +1,5 @@
-public class Leetcode260 {
-
+class Solution {
+    public int[] singleNumber(int[] nums) {
+        
+    }
 }
