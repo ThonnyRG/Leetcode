@@ -1,3 +1,5 @@
-public class Leetcode3110 {
-    
+class Solution {
+    public int scoreOfString(String s) {
+        
+    }
 }
