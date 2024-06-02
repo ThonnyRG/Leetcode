@@ -1,3 +1,5 @@
-public class Leetcode344 {
-    
+class Solution {
+    public void reverseString(char[] s) {
+        
+    }
 }
