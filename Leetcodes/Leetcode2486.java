@@ -1,3 +1,5 @@
-public class Leetcode2486 {
-    
+class Solution {
+    public int appendCharacters(String s, String t) {
+        
+    }
 }
