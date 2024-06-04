@@ -1,3 +1,5 @@
-public class Leetcode409 {
-    
+class Solution {
+    public int longestPalindrome(String s) {
+        
+    }
 }
