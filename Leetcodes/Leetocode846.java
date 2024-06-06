@@ -1,3 +1,4 @@
-public class Leetocode846 {
-    
+class Solution {
+    public boolean isNStraightHand(int[] hand, int groupSize) {
+    }
 }
