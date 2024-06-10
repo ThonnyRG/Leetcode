@@ -1,3 +1,5 @@
-public class Leetcode1051 {
-
+class Solution {
+    public int heightChecker(int[] heights) {
+        
+    }
 }
