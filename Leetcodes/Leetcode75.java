@@ -1,3 +1,5 @@
-public class Leetcode75 {
-    
+class Solution {
+    public void sortColors(int[] nums) {
+        
+    }
 }
