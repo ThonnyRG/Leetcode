@@ -1,3 +1,5 @@
-public class Leetcode2037 {
-    
+class Solution {
+    public int minMovesToSeat(int[] seats, int[] students) {
+        
+    }
 }
