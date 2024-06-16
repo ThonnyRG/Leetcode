@@ -1,3 +1,5 @@
-public class Leetcode330 {
-    
+class Solution {
+    public int minPatches(int[] nums, int n) {
+        
+    }
 }
