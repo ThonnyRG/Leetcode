@@ -1,3 +1,5 @@
-public class Leetcode633 {
-    
+class Solution {
+    public boolean judgeSquareSum(int c) {
+        
+    }
 }
