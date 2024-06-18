@@ -1,3 +1,5 @@
-public class Leetcode826 {
-    
+class Solution {
+    public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
+        
+    }
 }
