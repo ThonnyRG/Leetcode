@@ -1,3 +1,5 @@
-public class Leetcode1552 {
-
+class Solution {
+    public int maxDistance(int[] position, int m) {
+        
+    }
 }
