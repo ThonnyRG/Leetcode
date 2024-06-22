@@ -1,3 +1,5 @@
-public class Leetcode1248 {
-    
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+        
+    }
 }
