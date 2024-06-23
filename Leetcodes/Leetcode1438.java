@@ -1,3 +1,5 @@
-public class Leetcode1438 {
-    
+class Solution {
+    public int longestSubarray(int[] nums, int limit) {
+        
+    }
 }
