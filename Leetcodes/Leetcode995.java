@@ -1,3 +1,5 @@
-public class Leetcode995 {
-
+class Solution {
+    public int minKBitFlips(int[] nums, int k) {
+        
+    }
 }
