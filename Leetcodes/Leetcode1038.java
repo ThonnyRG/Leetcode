@@ -14,7 +14,21 @@
  * }
  */
 class Solution {
-    public TreeNode bstToGst(TreeNode root) {
-        
+    int sum = 0;
+  
+    private void inOrder(TreeNode node) {
+      if (node == null) return;
+  
+      inOrder(node.right);
+  
+      sum += node.val;
+      node.val = sum;
+  
+      inOrder(node.left);
     }
-}
+  
+    public TreeNode bstToGst(TreeNode root) {
+      inOrder(root);
+      return root;
+    }
+  }
