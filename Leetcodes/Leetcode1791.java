@@ -1,3 +1,5 @@
-public class Leetcode1791 {
-    
+class Solution {
+    public int findCenter(int[][] edges) {
+        
+    }
 }
