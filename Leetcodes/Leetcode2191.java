@@ -1,3 +1,5 @@
-public class Leetcode2191 {
-    
+class Solution {
+    public List<List<Integer>> getAncestors(int n, int[][] edges) {
+        
+    }
 }
