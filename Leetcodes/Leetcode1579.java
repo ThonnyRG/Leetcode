@@ -1,3 +1,5 @@
-public class Leetcode1579 {
-    
+class Solution {
+    public int maxNumEdgesToRemove(int n, int[][] edges) {
+        
+    }
 }
