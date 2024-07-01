@@ -1,3 +1,5 @@
-public class Leetcode1550 {
-    
+class Solution {
+    public boolean threeConsecutiveOdds(int[] arr) {
+        
+    }
 }
