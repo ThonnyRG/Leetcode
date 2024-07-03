@@ -1,3 +1,5 @@
-public class Leetcode1509 {
-
+class Solution {
+    public int minDifference(int[] nums) {
+        
+    }
 }
