@@ -1,3 +1,5 @@
-public class Leetcode1518 {
-
+class Solution {
+    public int numWaterBottles(int numBottles, int numExchange) {
+        
+    }
 }
