@@ -1,3 +1,5 @@
-public class Leetcode1701 {
-
+class Solution {
+    public double averageWaitingTime(int[][] customers) {
+        
+    }
 }
