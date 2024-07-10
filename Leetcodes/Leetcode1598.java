@@ -1,3 +1,5 @@
-public class Leetcode1598 {
-
+class Solution {
+    public int minOperations(String[] logs) {
+        
+    }
 }
