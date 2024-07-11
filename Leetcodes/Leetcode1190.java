@@ -1,3 +1,5 @@
-public class Leetcode1190 {
-
+class Solution {
+    public String reverseParentheses(String s) {
+        
+    }
 }
