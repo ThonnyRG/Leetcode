@@ -1,3 +1,5 @@
-public class Leetcode726 {
-
+class Solution {
+    public String countOfAtoms(String formula) {
+        
+    }
 }
