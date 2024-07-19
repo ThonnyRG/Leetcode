@@ -1,3 +1,5 @@
-public class Leetcode1380 {
-
+class Solution {
+    public List<Integer> luckyNumbers (int[][] matrix) {
+        
+    }
 }
