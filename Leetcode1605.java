@@ -1,3 +1,5 @@
-public class Leetcode1605 {
-
+class Solution {
+    public int[][] restoreMatrix(int[] rowSum, int[] colSum) {
+        
+    }
 }
