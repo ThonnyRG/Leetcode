@@ -1,3 +1,5 @@
-public class Leetcode2418 {
-
+class Solution {
+    public String[] sortPeople(String[] names, int[] heights) {
+        
+    }
 }
