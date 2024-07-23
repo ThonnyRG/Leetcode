@@ -1,3 +1,5 @@
-public class Leetcode1636 {
-
+class Solution {
+    public int[] frequencySort(int[] nums) {
+        
+    }
 }
