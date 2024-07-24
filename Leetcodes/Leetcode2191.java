@@ -1,3 +1,5 @@
-public class Leetcode2191 {
-
+class Solution {
+    public int[] sortJumbled(int[] mapping, int[] nums) {
+        
+    }
 }
