@@ -1,3 +1,5 @@
-public class Leetcode912 {
-
+class Solution {
+    public int[] sortArray(int[] nums) {
+        
+    }
 }
