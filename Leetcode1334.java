@@ -1,3 +1,5 @@
-public class Leetcode1334 {
-
+class Solution {
+    public int findTheCity(int n, int[][] edges, int distanceThreshold) {
+        
+    }
 }
