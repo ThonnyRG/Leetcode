@@ -1,4 +1,5 @@
-
-public class Leetcode2976 {
-
+class Solution {
+    public long minimumCost(String source, String target, char[] original, char[] changed, int[] cost) {
+        
+    }
 }
