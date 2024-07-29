@@ -1,3 +1,5 @@
-public class Leetcode1395 {
-
+class Solution {
+    public int numTeams(int[] rating) {
+        
+    }
 }
