@@ -1,3 +1,5 @@
-public class Leetcode1653 {
-
+class Solution {
+    public int minimumDeletions(String s) {
+        
+    }
 }
