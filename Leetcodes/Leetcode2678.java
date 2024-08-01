@@ -1,3 +1,5 @@
-public class Leetcode2678 {
-    
+class Solution {
+    public int countSeniors(String[] details) {
+        
+    }
 }
