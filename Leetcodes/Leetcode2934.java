@@ -1,3 +1,5 @@
-public class Leetcode2934 {
-    
+class Solution {
+    public int minSwaps(int[] nums) {
+        
+    }
 }
