@@ -1,3 +1,5 @@
-public class Leetcode1460 {
-
+class Solution {
+    public boolean canBeEqual(int[] target, int[] arr) {
+        
+    }
 }
