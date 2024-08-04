@@ -8,6 +8,7 @@ class Solution {
                 arr[k++] = s;
             }
         }
+        
         Arrays.sort(arr);
         int ans = 0;
         final int mod = (int) 1e9 + 7;
