@@ -1,6 +1,5 @@
-public class Leetcode2053 {
-
-
+class Solution {
+    public String kthDistinct(String[] arr, int k) {
+        
+    }
 }
-
-
