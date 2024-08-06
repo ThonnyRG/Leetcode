@@ -1,3 +1,5 @@
-public class Leetcode3016 {
-  
+class Solution {
+    public int minimumPushes(String word) {
+        
+    }
 }
