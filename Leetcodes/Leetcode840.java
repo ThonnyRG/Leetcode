@@ -1,3 +1,5 @@
-public class Leetcode840 {
-
+class Solution {
+    public int numMagicSquaresInside(int[][] grid) {
+        
+    }
 }
