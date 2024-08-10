@@ -1,3 +1,5 @@
-public class Leetcode959 {
-
+class Solution {
+    public int regionsBySlashes(String[] grid) {
+        
+    }
 }
