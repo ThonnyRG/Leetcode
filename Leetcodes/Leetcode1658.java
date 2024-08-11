@@ -1,3 +1,5 @@
-public class Leetcode1658 {
-
+class Solution {
+    public int minDays(int[][] grid) {
+        
+    }
 }
