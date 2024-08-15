@@ -1,3 +1,5 @@
-public class Leetcode860 {
-    
+class Solution {
+    public boolean lemonadeChange(int[] bills) {
+        
+    }
 }
