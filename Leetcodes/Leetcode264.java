@@ -1,3 +1,5 @@
-public class Leetcode264 {
-
+class Solution {
+    public int nthUglyNumber(int n) {
+        
+    }
 }
