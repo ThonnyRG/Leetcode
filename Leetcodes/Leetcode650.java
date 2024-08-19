@@ -1,3 +1,5 @@
-public class Leetcode650 {
-
+class Solution {
+    public int minSteps(int n) {
+        
+    }
 }
