@@ -1,3 +1,5 @@
-public class Leetcode476 {
-    
+class Solution {
+    public int findComplement(int num) {
+        
+    }
 }
