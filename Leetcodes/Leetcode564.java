@@ -1,3 +1,5 @@
-public class Leetcode564 {
-
+class Solution {
+    public String nearestPalindromic(String n) {
+        
+    }
 }
