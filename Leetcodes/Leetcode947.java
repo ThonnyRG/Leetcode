@@ -1,3 +1,5 @@
-public class Leetcode947 {
-    
+class Solution {
+    public int removeStones(int[][] stones) {
+        
+    }
 }
