@@ -17,6 +17,15 @@ public:
     }
 
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
-        ListNode
+        ListNode* ptr = head;
+        while (ptr->next)
+        {
+            int value = gcd(ptr->val, ptr->next->val);
+            ListNode* temp = new ListNode(value);
+            temp->next = ptr->next;
+            ptr->next=temp;
+            ptr= temp->next;
+        }
+        return head;
     }
 };
