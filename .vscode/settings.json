@@ -3,6 +3,7 @@
         "*.embeddedhtml": "html",
         "xmemory": "cpp",
         "xutility": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "vector": "cpp"
     }
 }
