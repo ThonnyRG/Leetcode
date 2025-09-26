@@ -13,7 +13,7 @@ public:
         for(int i=2; i<n; i++){
             int l=0, r=i-1;
             while(l<r){
-                if(nums[l]+nums[r]>nums[i]){
+                if(nums[l]+nums[r]>nums[i]){ 
                     ans+=r-l;
                     r--;
                 }
