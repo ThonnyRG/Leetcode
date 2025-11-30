@@ -25,7 +25,6 @@ public:
 
             prefixMod[currentMod] = i;
         }
-
         return minLength == nums.size() ? -1 : minLength;
     }
 };
