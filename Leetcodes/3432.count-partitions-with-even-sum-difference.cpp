@@ -17,7 +17,7 @@ public:
         for (int i = 0; i < n - 1; ++i)
         {
             leftSum += nums[i];
-            rightSum -= nums[i];
+            rightSum -= nus[i];
 
             if ((leftSum - rightSum) % 2 == 0)
             {
