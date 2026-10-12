@@ -1,32 +1,54 @@
+import java.util.*;
+
 class Solution {
-    public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
+    public int findRotateSteps(String ring, String key) {
+        char[] r = ring.toCharArray();
+        List<Integer>[] positions = new List[26];
         
-        List<double []>[] graph = new ArrayList[n];
-        for(int i=0;i<n;i++){
-            graph[i] = new ArrayList<>();
+        // Store the positions of each character in the ring
+        for (int i = 0; i < r.length; i++) {
+            int c = r[i] - 'a';
+            if (positions[c] == null) positions[c] = new ArrayList<>();
+            positions[c].add(i);
         }
-        for(int i=0;i<edges.length;i++){
-            graph[edges[i][0]].add(new double[]{edges[i][1],succProb[i]});
-            graph[edges[i][1]].add(new double[]{edges[i][0],succProb[i]});
+        
+        // Dynamic programming memoization
+        int[][] dp = new int[key.length()][r.length];
+        
+        // Start with the first character of the key at position 0
+        return helper(0, 0, positions, key.toCharArray(), r, dp);
+    }
+    
+    // Recursive function with memoization
+    int helper(int index, int pos, List<Integer>[] positions, char[] key, char[] ring, int[][] dp) {
+        // If all characters of the key have been matched, return 0
+        if (index == key.length) return 0;
+        
+        // If this state has already been computed, return the cached result
+        if (dp[index][pos] > 0) return dp[index][pos];
+        
+        // Current character in the key
+        char target = key[index];
+        
+        // List of possible positions of the current character in the ring
+        List<Integer> possiblePositions = positions[target - 'a'];
+        
+        // Minimum steps required to reach the current character from the current position
+        int minSteps = Integer.MAX_VALUE;
+        
+        // Iterate through possible positions and calculate minimum steps
+        for (int nextPos : possiblePositions) {
+            // Calculate the steps to move from the current position to the next position
+            int steps = Math.min(Math.abs(nextPos - pos), ring.length - Math.abs(nextPos - pos));
+            
+            // Calculate steps for remaining characters recursively
+            int totalSteps = steps + helper(index + 1, nextPos, positions, key, ring, dp);
+            
+            // Update the minimum steps
+            minSteps = Math.min(minSteps, totalSteps);
         }
-        boolean []vis = new boolean[n];
-        PriorityQueue<double[]> pq = new PriorityQueue<>((a,b)->Double.compare(b[1],a[1]));
-        pq.add(new double[]{start,1});
-
-        while(pq.size()!=0){
-
-            double [] temp = pq.poll();
-            if(temp[0] == end){
-                return temp[1];
-            }
-            if(vis[(int)temp[0]]){
-                continue;
-            }
-            vis[(int)temp[0]] = true;
-            for(double []nbr : graph[(int)temp[0]]){
-                pq.add(new double[]{nbr[0],temp[1]*nbr[1]});
-            }
-        }
-        return 0.0;
+        
+        // Cache the result and return
+        return dp[index][pos] = minSteps + 1;
     }
 }
